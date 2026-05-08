@@ -12,8 +12,7 @@ Coursework notebooks covering foundational deep learning topics in PyTorch and N
 | 5   | [`lab5_xor_neural_net.ipynb`](lab5_xor_neural_net.ipynb) | NN from scratch in NumPy (XOR) |
 | 6   | [`lab6_hyperparam_tuning.ipynb`](lab6_hyperparam_tuning.ipynb) | Hyperparameter tuning & regularization |
 | 7   | [`lab7_cnn_image_classification.ipynb`](lab7_cnn_image_classification.ipynb) | CNNs for image classification |
-| 8   | [`lab8_transfer_learning.ipynb`](lab8_transfer_learning.ipynb) | Transfer learning walkthrough (VGG16 / ResNet50) |
-| 8b  | [`lab8b_transfer_learning_lab.ipynb`](lab8b_transfer_learning_lab.ipynb) | Transfer learning practice exercises |
+| 8   | [`lab8_transfer_learning.ipynb`](lab8_transfer_learning.ipynb) | Transfer learning — walkthrough + exercises (VGG16 / ResNet50) |
 | 9   | [`lab9_rnn_lstm_gru.ipynb`](lab9_rnn_lstm_gru.ipynb) | RNN / LSTM / GRU for text generation |
 | 10  | [`lab10_attention.ipynb`](lab10_attention.ipynb) | Attention mechanisms |
 
