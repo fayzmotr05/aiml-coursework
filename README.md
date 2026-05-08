@@ -15,6 +15,7 @@ Coursework notebooks covering foundational deep learning topics in PyTorch and N
 | 8   | [`lab8_transfer_learning.ipynb`](lab8_transfer_learning.ipynb) | Transfer learning — walkthrough + exercises (VGG16 / ResNet50) |
 | 9   | [`lab9_rnn_lstm_gru.ipynb`](lab9_rnn_lstm_gru.ipynb) | RNN / LSTM / GRU for text generation |
 | 10  | [`lab10_attention.ipynb`](lab10_attention.ipynb) | Attention mechanisms |
+| 11  | [`lab11_transformer.ipynb`](lab11_transformer.ipynb) | Building and training a simple Transformer |
 | 12  | [`lab12_gans.ipynb`](lab12_gans.ipynb) | Implementing GANs — vanilla GAN on MNIST |
 
 ## Setup
