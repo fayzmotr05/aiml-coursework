@@ -1,24 +1,23 @@
-# Deep Learning Notebooks
+# Deep Learning Labs
 
-A collection of Jupyter notebooks covering foundational deep learning topics, built with PyTorch and NumPy. Notebooks follow the lab order from the course.
+Coursework notebooks covering foundational deep learning topics in PyTorch and NumPy.
 
-## Contents
+## Lab index
 
 | Lab | Notebook | Topic |
 |-----|----------|-------|
-| —   | `00_index.ipynb` | Index / placeholder |
-| 2A  | `01_numpy_matplotlib_review.ipynb` | NumPy and Matplotlib refresher |
-| 2B  | `02_perceptron_intro.ipynb` | The perceptron from first principles |
-| 3   | `03_pytorch_tensors.ipynb` | PyTorch tensor basics |
-| 4   | `04_nn_from_scratch_xor.ipynb` | A small NN learning XOR (forward/backward in NumPy) |
-| 5   | `05_rnn_lstm_gru_text_gen.ipynb` | Character-level text generation with RNN / LSTM / GRU |
-| 6   | `06_hyperparameter_tuning.ipynb` | Hyperparameter search and regularization |
-| 7   | `07_cnn_image_classification.ipynb` | CNNs for image classification |
-| 8   | `08_transfer_learning_tutorial.ipynb` | Transfer learning walkthrough (VGG16 / ResNet50 on CIFAR-10) |
-| 8   | `09_transfer_learning_lab.ipynb` | Transfer learning practice exercises |
-| 9   | `10_attention_mechanisms.ipynb` | Attention mechanisms |
+| 2A  | [`lab2a_numpy_matplotlib.ipynb`](lab2a_numpy_matplotlib.ipynb) | NumPy & Matplotlib refresher |
+| 2B  | [`lab2b_perceptron.ipynb`](lab2b_perceptron.ipynb) | The perceptron from first principles |
+| 3B  | [`lab3b_pytorch_exercises.ipynb`](lab3b_pytorch_exercises.ipynb) | PyTorch fundamentals — exercises |
+| 5   | [`lab5_xor_neural_net.ipynb`](lab5_xor_neural_net.ipynb) | NN from scratch in NumPy (XOR) |
+| 6   | [`lab6_hyperparam_tuning.ipynb`](lab6_hyperparam_tuning.ipynb) | Hyperparameter tuning & regularization |
+| 7   | [`lab7_cnn_image_classification.ipynb`](lab7_cnn_image_classification.ipynb) | CNNs for image classification |
+| 8   | [`lab8_transfer_learning.ipynb`](lab8_transfer_learning.ipynb) | Transfer learning walkthrough (VGG16 / ResNet50) |
+| 8b  | [`lab8b_transfer_learning_lab.ipynb`](lab8b_transfer_learning_lab.ipynb) | Transfer learning practice exercises |
+| 9   | [`lab9_rnn_lstm_gru.ipynb`](lab9_rnn_lstm_gru.ipynb) | RNN / LSTM / GRU for text generation |
+| 10  | [`lab10_attention.ipynb`](lab10_attention.ipynb) | Attention mechanisms |
 
-## Getting started
+## Setup
 
 ```bash
 python3 -m venv .venv
@@ -27,8 +26,8 @@ pip install numpy matplotlib torch torchvision jupyter tqdm
 jupyter lab
 ```
 
-GPU is recommended for labs 5, 7, 8, and 9. On Colab, enable **Runtime → Change runtime type → GPU**.
+GPU recommended for labs 7–10. On Colab, enable **Runtime → Change runtime type → GPU**.
 
 ## Notes
 
-Cell outputs are intentionally cleared so the notebooks open cleanly in version control. Run them top-to-bottom to reproduce the results.
+Cell outputs are cleared so the notebooks open cleanly in version control. Run them top-to-bottom to reproduce results.
